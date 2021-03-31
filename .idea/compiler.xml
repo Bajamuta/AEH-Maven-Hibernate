@@ -4,5 +4,13 @@
     <bytecodeTargetLevel>
       <module name="MavenProject" target="8" />
     </bytecodeTargetLevel>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MavenProject" />
+      </profile>
+    </annotationProcessing>
   </component>
 </project>
